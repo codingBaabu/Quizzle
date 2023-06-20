@@ -1,0 +1,266 @@
+
+body {
+  padding:0;
+  margin:0;
+  background-color: #112224;
+  font-family: 'IBM Plex Sans', sans-serif;
+  width:100%;
+  overflow:hidden;
+}
+
+
+#nav {
+  background-color: #112224;
+  display:block;
+  width:100%;
+  padding:0;
+  padding:.7vw;
+  color:white;
+}
+
+#homepage {
+  font-family: 'Advent Pro', sans-serif;
+  font-size:20px;
+  color:white;
+}
+
+
+#username {
+  font-family: 'Advent Pro', sans-serif;
+  font-size:20px;
+  margin:0 1vw;
+  padding:0;
+  color:white;
+}
+
+#logout {
+  font-family: 'Advent Pro', sans-serif;
+  font-size:20px;
+  padding:0;
+  margin:0;
+  color:gold;
+}
+
+
+
+#nav {
+  display:block;
+  width:100%;
+  padding:0;
+  padding:.7vw;
+  color:white;
+}
+
+.name {
+  text-align:center;
+  padding-top:5px;
+  padding-bottom:15px;
+  
+  font-family: 'Advent Pro', sans-serif;
+  font-size:20px;
+}
+
+ul {
+  margin:0px;
+  padding:0px;
+}
+
+.submit {
+  margin:0px;
+  width:100%;
+  height:100%;
+  padding:8%;
+  border:solid 1px #885;
+
+}
+
+.navContainer {
+  width:100%;
+  margin:0;
+}
+
+form {
+  margin:0px;
+  padding:0px;
+}
+
+#course-title-header {
+
+  background-color: #885;
+  margin:auto;
+  width:15vw;
+  text-align:center;
+}
+
+#course-section {
+  display:flex;
+  align-items:start;
+  justify-content: center;
+  width:100vw;
+  height:75vh;
+
+  padding:0;
+}
+
+#course1, #course2, #course3, #course4 {
+  margin:0px;
+  padding:0px;
+}
+
+.tp {
+  margin:0;
+  padding:0;
+}
+
+#logout {
+  padding:0;
+  margin:0;
+}
+
+
+
+.community-stats {
+  background-color:#885;
+}
+
+.rowClass {
+  width:100%;
+  padding:0;
+  margin:0;
+}
+
+body {
+  padding:0;
+  margin:0;
+
+}
+
+.face:hover {
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+#courseCode {
+  color:white;
+  margin:0;
+  font-size:2.7vw;
+}
+
+#submit1 {
+  color:#77f;
+}
+
+#submit2 {
+  color:#885;
+}
+
+.label {
+  font-family: 'Bruno Ace SC', cursive;
+
+  height:min-content;
+  padding:0;
+  margin:0;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  width:50vw;
+  font-size:4vw;
+  color:white;
+  border-bottom:solid 5px #112224;
+}
+
+.i-label {
+  background-color:#77f;
+  border-right:solid 2px #112224;
+}
+
+.q-label {
+  background-color:#885;
+  border-left:solid 2px #112224;
+}
+
+.submit {
+  background:rgb(0, 0, 0, .5);
+}
+
+.submit:hover {
+  background:rgb(0, 0, 0, 0);
+}
+
+#bgpic1 {
+  background-image:url("../res/banker.png");
+  background-size:cover;
+  height:80vh;
+  width:50vw;
+  max-width:100%;
+  vertical-align: middle;
+}
+
+#bgpic2 {
+  
+  background-image:url("../res/quizzle.png");
+  background-size:cover;
+  height:80vh;
+  width:50vw;
+}
+
+@media all and (max-width:992px){
+  #username, #logout {
+    float:right;
+  }
+
+  .row {
+    width:90%;
+  }
+
+  .label {
+    width:100%;
+    border:none;
+  }
+
+  #course-section {
+    display:flex;
+    justify-content: center;
+    align-items: start;
+  }
+  
+  #bgpic1, #bgpic2 {  
+    width:100%;
+    height:35vw;
+  }
+
+  .q-label {
+    margin-top:15px;
+  }
+}
+
+@media (max-width: 768px) {
+  #username, #logout {
+    margin:0;
+    float:right;
+  }
+
+  #bgpic1, #bgpic2 {  
+    width:100%;
+    height:47vw;
+  } 
+}

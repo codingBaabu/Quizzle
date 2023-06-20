@@ -1,0 +1,116 @@
+body,
+html {
+  height: 100%;
+  margin:0;
+  padding:0;
+
+  padding: auto 0;
+
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background-image: url("../res/login2.png");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  overflow:hidden;
+}
+
+.signup {
+  width:100px;
+  background-color: #24A0ED;
+  border:none;
+  color:white;
+}
+
+.title {
+  font-family: 'Advent Pro', sans-serif;
+}
+
+label {
+  float: left;
+  width: 100px;
+}
+
+input {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+li {
+  float: left;
+  padding: 10px;
+}
+
+nav {
+  margin-bottom: 30px;
+}
+
+button {
+  margin: 0px;
+  padding: 0px;
+}
+
+#login {
+  background-color: #333;
+  opacity:.9;
+  height: 700px;
+  width: 500px;
+  text-align: center;
+  vertical-align: middle;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #885;
+}
+
+
+
+.normal_button {
+  width: 220px;
+
+  padding: 10px;
+  background-color: #885;
+  border: none;
+  color: white;
+}
+
+#error-message {
+  color: #F33;
+}
+
+
+
+.login {
+  width:100px;
+  background-color: #885;
+  border:none;
+  color:white;
+}
+
+.normal_button:hover {
+  background-color:#996;
+  cursor:pointer; 
+}
+
+
+.signup:hover {
+  background-color:#35B1FE;
+  cursor:pointer;
+  
+}

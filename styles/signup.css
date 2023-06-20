@@ -1,0 +1,282 @@
+body,
+html {
+  height: 100%;
+
+  padding: auto 0;
+
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background-image: url("../res/login2.png");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  overflow:hidden;
+}
+
+label {
+  float: left;
+  width: 100px;
+}
+
+.title {
+  font-family: 'Advent Pro', sans-serif;
+}
+
+input {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+li {
+  float: left;
+  padding: 10px;
+}
+
+nav {
+  margin-bottom: 30px;
+}
+
+button {
+  margin: 0px;
+  padding: 0px;
+}
+
+#login {
+  background-color: #23395d;
+  opacity:.9;
+  height: 700px;
+  width: 500px;
+  text-align: center;
+  vertical-align: middle;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #885;
+}
+
+.login {
+  width:100px;
+  background-color: #885;
+  border:none;
+  color:white;
+}
+
+.login:hover {
+  background-color:#996;
+  cursor:pointer; 
+}
+
+
+.normal_button {
+  width: 220px;
+
+  padding: 10px;
+  background-color:#0280ED;
+  border: none;
+  color: white;
+}
+
+.errors {
+  color: red;
+  display: inline;
+}
+
+
+
+
+
+body {
+  background-color: #222;
+  color: white;
+}
+
+#nav {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: #D4AF37;
+  margin-bottom: 10px;
+  padding: 0px;
+}
+
+#quiz-card {
+  background-color: #111;
+  height: auto;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.navContainer {
+  width: 100%;
+  margin: 0;
+}
+
+form {
+  margin: 0px;
+  padding: 0px;
+}
+
+#course-section {
+  width: 100%;
+  margin-top: 100px;
+  padding: 0;
+}
+
+#course1,
+#course2,
+#course3,
+#course4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.tp {
+  margin: 0;
+  padding: 0;
+}
+
+#logout {
+  padding: 0;
+  margin: 0;
+}
+
+#username {
+  margin: 0px 10px;
+  padding: 0;
+}
+
+.community-stats {
+  background-color: #885;
+}
+
+.rowClass {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+
+}
+
+#courseCode {
+  color: white;
+}
+
+.options-container {
+  display: block;
+  color: white;
+
+}
+
+.options {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+#option1label,
+#option2label,
+#option3label {
+  margin: 15px;
+}
+
+.section-1,
+.cc-container {
+  padding: 50px;
+}
+
+#current-score {
+  text-align: center;
+  color: #393;
+}
+
+
+.continueAndAddComment,
+.continueForm {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: 0;
+  width: 100%;
+}
+
+
+.continyuh {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 0;
+  margin-bottom: 20px;
+  height: 100px;
+
+}
+
+.comment {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 0;
+  height: 100px;
+}
+
+
+
+.candac-container {
+  padding: 0;
+
+}
+
+.comment-card {
+  padding: 15px;
+  background-color: #D4AF37;
+  color: #222;
+  opacity: .9;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.commenter-id {
+  font-weight: bold;
+  color: #362;
+}
+
+#allCourseComments {
+  margin: 0;
+  padding: 0px;
+}
+
+.options {
+  color: white;
+}
+
+
+#error-message {
+  color: #F33;
+}
+
+.normal_button:hover {
+  background-color:#24A2FF;
+  cursor:pointer;
+  
+}

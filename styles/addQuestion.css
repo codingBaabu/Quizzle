@@ -1,0 +1,226 @@
+
+body {
+  padding:0;
+  margin:0;
+  background-color:#112234;
+  font-family: 'IBM Plex Sans', sans-serif;
+  height: 100vh;
+  width:100%;
+  background-size: 100% 100%;
+
+}
+
+
+.top {
+ 
+  margin:auto;
+  padding:0;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#nav {
+  display:block;
+  width:100%;
+  padding:0;
+  padding:.7vw;
+  color:white;
+  background-color:#112234;
+}
+
+.form-control {
+  display:inline-block;
+  border:none;
+  color:white;
+  background:rgb(58, 112, 180, .8);
+  border:solid .2vw rgb(0,42,100,.6);
+}
+
+#add-option1 {
+  width:90%;
+}
+
+#add-option2 {
+  width:80%;
+}
+
+#add-option3 {
+  width:70%;
+}
+
+.comment-input {
+  height:100%;
+  width:100%;
+  background: linear-gradient(180deg, rgba(58,112,180,0.8) 0%, rgba(58,112,180,0.6) 25%, rgba(58,112,180,0.4) 53%, rgba(58,112,180,0.2) 77%, rgba(58,112,180,0.1) 100%);  
+  border:solid .2vw rgb(58,112,180,0.7);
+}
+
+input[type='radio'] {
+  accent-color: #77f;
+}
+
+#contributor-comment {
+  width:100vw;
+  padding:3vw;
+  height:300px;
+  border-top:none;
+  background: linear-gradient(180deg, rgba(58,112,180,0.3) 0%, rgba(17,34,52,1) 100%); 
+}
+
+
+.add-question-card {
+
+  position:relative;
+  padding:3vw;
+  width:100vw;
+  background:rgb(58, 112, 180, .5);
+  height:min-content;
+  border-top-left-radius:25px;
+  border-top-right-radius:25px;
+}
+
+
+#add-question {
+  width:100%;
+}
+
+#rightAnswer {
+  
+  width:30px;
+  height:30px;
+  margin-right:10px;
+}
+
+.form-group {
+  display:flex;
+  align-items: center;
+  margin-bottom:15px;
+ 
+  
+}
+
+#homepage {
+  font-family: 'Advent Pro', sans-serif;
+  font-size:20px;
+  color:white;
+}
+
+#username {
+  font-family: 'Advent Pro', sans-serif;
+  font-size:20px;
+  margin:0 1vw;
+  padding:0;
+  color:white;
+}
+
+#logout {
+  font-family: 'Advent Pro', sans-serif;
+  font-size:20px;
+  margin:0;
+  padding:0;
+  color:gold;
+}
+
+
+.top {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.btn-container {
+  width:100%;
+  margin:auto;
+  padding:0;
+}
+
+.btn {
+  align-items: center; 
+  justify-content: end;
+  background:rgb(58,112,180,0.2);
+  font-family: 'Advent Pro', sans-serif;
+  margin-right: 0;
+  height:100px;
+  width:20%;
+  border:none;
+  color:#aaf;
+  font-size:48px;
+  margin:0;
+  border:solid .2vw rgb(58,112,180,0.7);
+
+}
+
+.title {
+  font-family: 'Bruno Ace SC', cursive;
+
+  color:white;
+  margin-bottom:20px;
+}
+
+.btn:hover {
+  background:rgb(58,112,180,0.4);
+  border:solid .2vw rgb(58,112,180,0.7);
+  color:#aaf;
+}
+
+.add-question-card h1 {
+  font-size:36px;
+  margin-bottom:25px;
+}
+
+.add-question-card form {
+  font-size:20px;
+}
+
+.add-question-card form .form-group {
+  margin-bottom:12px;
+}
+
+.form-control::placeholder {
+  background: rgb(49,63,64, 0);
+  color:white;
+  opacity:.6;
+}
+
+.form-control:focus {
+  background:rgb(58, 112, 180, .8);
+  color:white;
+}
+
+.comment-input:focus {
+  background: linear-gradient(180deg, rgba(58,112,180,0.8) 0%, rgba(58,112,180,0.6) 25%, rgba(58,112,180,0.4) 53%, rgba(58,112,180,0.2) 77%, rgba(58,112,180,0) 100%);  border:solid .2vw rgb(58,112,180,0.7);
+  border:solid .2vw rgb(140,170,255,1);
+}
+
+
+
+.add-question-card form input[type="submit"] {
+  font-size:20px;
+  margin-top:15px;
+}
+
+@media (max-width: 768px) {
+  #username, #logout {
+    margin:0;
+    float:right;
+  }
+}
+
+
+@media (max-width: 576px) {
+  
+  .add-question-card {
+    width:100vw;
+    height:min-content;
+    padding:10vw;
+  }
+
+  #course-section{
+    padding:0;
+  }
+
+  .btn {
+    width:25%;
+  }
+}

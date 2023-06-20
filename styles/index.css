@@ -1,0 +1,858 @@
+
+body {
+  padding:0;
+  margin:0;
+  height:92vh;
+  background-color: #112224;
+  font-family: 'IBM Plex Sans', sans-serif;
+  height: 100%;
+  width:100%;
+  
+}
+
+
+
+#nav {
+  display:block;
+  width:100%;
+  padding:5vw 0;
+  padding:.7vw;
+  color:white;
+  background-color: #112224;
+
+}
+
+.about-quizzle {
+  padding:5vw;
+  background:rgb(40, 70, 70, 1);
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position: right; 
+
+  height:min-content;
+  border-bottom:solid 2px #223335;
+
+}
+
+.aq-wrapper {
+  display:flex;
+  align-items:center;
+  justify-content:center;  
+
+  height:min-content;
+  width:100%;
+
+  color:black;
+
+  
+}
+
+.aq-row {
+  display:flex;
+}
+
+
+#info-section {
+  display:flex;
+  align-items:center;
+  justify-content:center;  
+  margin:0;
+  padding:0;
+
+  width:100%;
+  height:min-content;
+  font-size:2vw;
+  color:white;
+
+}
+
+.wow-title {
+  display:block;
+  
+  width:100%;
+  color:#dfe667;
+  text-align:center;
+}
+
+.info-wrapper {
+  margin:0;
+  padding:0;
+  height:min-content;
+}
+
+.wow {
+  display:inline-block;
+  font-style:italic;
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+  font-size:26px;
+}
+
+.wow-author {
+  text-align:right;
+}
+
+.big-stats {
+  display:flex;
+  align-items:center;
+  justify-content:center;  
+
+  margin:0;
+  padding:3.5vw 0;
+
+  width:100vw;
+  height:100%;
+
+  color:#BF0A30;
+
+  border-bottom:solid 2px #223335;
+  background-image:url("../res/design.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+
+}
+
+.stats-title {
+  display:flex;
+  font-family: 'Advent Pro', sans-serif;
+
+  color:#dfe667;
+  align-items:center;
+  justify-content:center;  
+}
+
+
+.wow-stats {
+  align-items:center;
+  justify-content:center;  
+  font-family: 'Advent Pro', sans-serif;
+
+  margin:0;
+  padding:0;
+  padding-top:1vw;
+
+  width:100vw;
+  color:#BF0A30;
+  font-size:48px;
+
+  background:rgb(40, 60, 60, .8);
+
+}
+
+.wow-row {
+  margin:0;
+  padding:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;  
+
+  height:100%;
+  width:100%;
+
+}
+
+.big-wow {
+  display:flex;
+  align-items:center;
+  justify-content:center;  
+
+  height:min-content;
+  padding:5vw;
+  color:white;
+}
+
+
+.wow-points, .wow-comments, .wow-investments {
+  margin:0 3vw;
+  padding:0;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;  
+  background-color: #223335;
+  
+
+  font-size:3.5vw;
+  height:12vw;
+  width:12vw;
+}
+
+.wow-points {
+  background-color: #885;
+  color:white;
+}
+
+
+.wow-comments {
+  background-color: #ea6c46;
+  color:white;
+}
+
+
+.wow-investments {
+  background-color: #253da1;
+  color:white;
+}
+
+.tp-section, .ti-section, .tc-section {
+  margin:0;
+  padding:0;
+}
+
+.stats-row-labels {
+  background:rgb(50, 70, 70, .8);
+}
+
+.wow-points-label, .wow-comments-label, .wow-investments-label {
+  margin:0 3vw;
+  padding:0;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;  
+  color:white;
+
+  font-size:2.5vw;
+  width:12vw;
+
+}
+
+.wow-investments-label {
+  color: #758df1;
+}
+
+.wow-comments-label {
+  color: #ea6c46;
+}
+
+.wow-points-label {
+  color: #885;
+}
+
+.big-pic {
+  display:block;
+  align-items:center;
+  justify-content:center; 
+  margin:0;
+  padding:0;
+  width:100vw;
+  height:100vh;
+  background-image:url("../res/login.png");
+  background-attachment: fixed;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.big-pic-title {
+  display:flex;
+  align-items:center;
+  justify-content:center; 
+  color:white;
+  font-family: 'Bruno Ace SC', cursive;
+  font-size:9vw;
+}
+
+.bp-row {
+  display:flex;
+  align-items:center;
+  justify-content:center; 
+}
+
+.bp-wrapper {
+  display:flex;
+  align-items:center;
+  justify-content:center; 
+  width:100%;
+  height:100%;
+  background:rgb(40, 50, 70, .8);
+}
+
+.reading {
+ max-height:100%;
+ max-width:100%;
+ 
+}
+
+
+.quizzle-title {
+  color:#dfe667;
+  font-family: 'Advent Pro', sans-serif;
+  font-size:28px;
+}
+
+.quizzle-text, .quizzle-text2 {
+  margin:0;
+ color:white;
+ line-height:2.5;
+ font-size:20px;
+ width:85%;
+}
+
+
+
+#pic {
+  display:inline-block;
+  width:400px;
+  height:200px;
+}
+
+#bug-section {
+  display:flex;
+  align-items:center;
+  justify-content:center;  
+
+  color:white;
+  width:100%;
+  height:12vh;
+  background:#112224;
+  border-top:solid 2px #111;
+
+  font-family: 'Advent Pro', sans-serif;
+  font-weight:bold;
+  font-size:18px; 
+  color:#999;
+  
+}
+
+.bug-text {
+  font-size:20px;
+  text-align:center;
+  margin:0;
+}
+
+#bug-field {
+  width:30vw;
+  height:40px;
+  margin:0;
+  padding-left:.5vw;
+}
+
+#bug-button {
+  display:flex;
+  align-items:center;
+  justify-content:center;  
+  background-color:#445557;
+  color:white;
+  border:none;
+  height:40px;
+  width:4vw;
+  margin:0;
+  padding:0;
+}
+
+.field-wrapper {
+  display:flex;
+  align-items:center;
+  justify-content:center;  
+  height:80px;
+  width:24vw;
+}
+
+#homepage {
+  font-family: 'Advent Pro', sans-serif;
+  font-size:20px;
+  color:white;
+}
+
+.section {
+  background-color: #112224;
+  height:5vh;
+  width:100vw;
+}
+
+
+#username {
+  font-family: 'Advent Pro', sans-serif;
+  font-size:20px;
+  margin:0 1vw;
+  padding:0;
+  color:white;
+}
+
+#logout {
+  font-family: 'Advent Pro', sans-serif;
+  font-size:20px;
+  padding:0;
+  margin:0;
+  color:gold;
+}
+
+h5 {
+  margin:0;
+  padding:1vh 0;
+  width:min-content;
+}
+
+#tpHeading, #tiHeading, #tcHeading {
+  font-family: 'Advent Pro', sans-serif;
+  margin-bottom:.6vw;
+  padding:.4vw 0;
+  font-size:1.4vw;
+  color:white;
+}
+
+#tpHeading {
+  background:rgb(136, 156, 85, .6);
+  border-top-left-radius:.5vw;
+  border-top-right-radius:.5vw;
+}
+
+#tiHeading {
+  background:rgb(88, 142, 255, .6);
+ 
+}
+
+#tcHeading {
+  background:rgb(234, 108, 70, .6);
+ 
+}
+
+.tp-scores {
+  color: #AB8;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+.ti-scores {
+  color: #88F;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+.tc-scores {
+  color: #ea6c46;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+ul {
+  margin:0;
+  padding:0;
+}
+
+.submit {
+  font-family: 'Advent Pro', sans-serif;
+  width:100%;
+  height:12vw;
+  padding:20%;
+  border:solid .2vw #885;
+
+}
+
+#submit1 {
+  padding:10%;
+}
+
+.navContainer {
+  width:100%;
+  margin:0;
+}
+
+form {
+  margin-left:0;
+  padding:0;
+}
+
+#course-section {
+  background-color: #112224;
+  padding:0;
+  margin:0;
+  width:100%;
+}
+
+#course1, #course2, #course3, #course4, #year1 {
+  margin:0;
+  padding:0;
+  display:relative;
+}
+
+.year {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size:30px;
+  color:white;
+}
+
+
+.tp {
+  margin:0;
+  padding:0;
+}
+
+.tp-content {
+  margin:0;
+  padding:0;
+  width:97.5%;
+  height:100%;
+  background-color:#223335;
+  color:white;
+  border-radius:.5vw;
+  border:solid .1vw #885;
+  text-align:center;
+
+}
+
+
+.score-section {
+  margin:0;
+  padding:0;
+}
+
+.scores, .names {
+  text-align:center;
+  
+  margin:0;
+  font-size:.9vw;
+  padding-bottom:.7vw;
+}
+
+
+.names {
+  text-align:left;
+  padding-left:2vw;
+}
+
+.community-stats {
+ margin:0;
+}
+
+.rowClass {
+  width:100%;
+  padding:0;
+  margin:0;
+}
+
+.submit {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size:2.5vw;
+}
+
+#submit1, #submit2, #submit3, #submit4, #submit5, #submit6,
+#submit7, #submit8, #submit9, #submit10, #submit11 {
+  opacity:.8;
+}
+
+#submit1:hover, #submit2:hover, #submit3:hover, #submit4:hover, #submit5:hover, #submit6:hover,
+#submit7:hover, #submit8:hover, #submit9:hover, #submit10:hover {
+  opacity:.5;
+  color:transparent;
+}
+
+#bgpic1, #bgpic2, #bgpic3, #bgpic4, #bgpic5, #bgpic6, 
+#bgpic7, #bgpic8, #bgpic9, #bgpic10 {
+  display:block;
+  background-size: cover;
+  height:100%;
+  width:100%;
+  border-radius:.5vw;
+}
+
+#bgpic1 {
+  background-image:url("../res/infoassurance.png");
+  }
+
+#bgpic2 {
+  background-image:url("../res/circuit.png");
+}
+
+#bgpic3 {
+  background-image:url("../res/guyana.png");
+}
+
+#bgpic4 {
+  background-image:url("../res/caribbean.png");
+}
+
+#bgpic5 {
+  background-image:url("../res/graphics.png");
+}
+
+#bgpic6 {
+  background-image:url("../res/spanish.png");
+}
+
+#bgpic7 {
+  background-image:url("../res/ict.png");
+}
+
+#bgpic8 {
+  background-image:url("../res/binary.png");
+}
+
+#bgpic9 {
+  background-image:url("../res/ethics.png");
+}
+
+#bgpic10 {
+  background-image:url("../res/research.png");
+}
+
+
+#p {
+    
+  padding:0;
+  margin:0;
+  border:none;
+  color:black;
+}
+
+
+@media all and (max-width:1400px){
+
+  .submit {
+    height:16.7vw;
+    padding:10.5%;
+  }
+
+  
+  #tpHeading {
+    font-size:2vw;
+  }
+
+  .names, .scores {
+    font-size:1.6vw;
+  }
+
+  #tpHeading, #tiHeading, #tcHeading {
+    font-size:1.6vw;
+  }
+  .aq-wrapper {
+    padding:3vw;
+    color:black;
+
+  }
+
+}
+
+@media all and (max-width:1200px){
+  .submit {
+    height:18.5vw;
+    padding:10.5%;
+  }
+
+  
+  #tpHeading {
+    font-size:2vw;
+  }
+
+  .names, .scores {
+    font-size:1.8vw;
+  }
+
+  #tpHeading, #tiHeading, #tcHeading {
+    font-size:1.8vw;
+  }
+  .aq-wrapper {
+    padding:3vw;
+    color:black;
+
+  }
+
+}
+
+@media all and (max-width:992px){
+  .submit {
+    height:21vw;
+    padding:10.5%;
+  }
+
+  
+  #tpHeading {
+    font-size:1.5vw;
+  }
+
+  .names, .scores {
+    font-size:2.2vw;
+  }
+
+  #tpHeading, #tiHeading, #tcHeading {
+    font-size:2.1vw;
+  }
+  .aq-wrapper {
+    padding:3vw;
+    color:black;
+
+  }
+
+}
+
+@media all and (max-width:768px){
+
+  .course-section {
+    height:100%;
+  }
+
+  .courses {
+    height:100%;
+  }
+
+  .submit {
+    height:100px;
+  }
+
+  #username, #logout {
+    margin:0;
+    float:right;
+  }
+
+ .submit {
+    height:15vh;
+    padding:2%;
+    font-size:3.5vw;
+  }
+
+  .tp {
+    height:100%;
+  }
+
+  .tp-content {
+    display:flex;
+    margin-left:2vw;
+    margin-top:14px;
+    width:96%;
+    
+  }
+
+
+  .names, .scores {
+    font-size:2.5vw;
+    height:100%;
+    padding-left:2.7vw;
+    
+  }
+
+
+  .tp-section, .ti-section, .tc-section {
+    display:inline-block;
+    width:40%;
+  }
+  #tpHeading {
+    border-radius:0px;
+  }
+
+  #tpHeading, #tiHeading, #tcHeading {
+    font-size:3vw;
+    border:solid 1px #885;
+
+  }
+
+  .wow {
+    font-size:20px;
+  }
+
+  
+.wow-points, .wow-comments, .wow-investments {
+  width:17vw;
+  height:17vw;
+  font-size:5vw;
+  
+}
+
+.wow-points-label, .wow-comments-label, .wow-investments-label {
+  width:17vw;
+  font-size:4vw;
+ 
+}
+ 
+}
+
+@media all and (max-width:576px){
+  .course-section {
+    height:100%;
+  }
+
+  #username, #logout {
+    margin:0;
+    float:right;
+  }
+
+ .submit {
+    height:12vh;
+    padding:2%;
+    font-size:4vw;
+  }
+
+  .tp {
+    height:100%;
+  }
+
+  .tp-content {
+    margin-top:14px;
+    display:block;
+    margin-left:2vw;
+    width:96%;
+    
+  }
+
+  
+
+  .tp-section, .ti-section, .tc-section {
+    display:block;
+    width:100%;
+  }
+  #tpHeading {
+    border-radius:0px;
+  }
+
+  #tpHeading, #tiHeading, #tcHeading {
+    font-size:5vw;
+    border:solid 1px #885;
+
+  }
+
+  .names, .scores {
+    font-size:3.5vw;
+    height:100%;
+  }
+  
+.names {
+  padding-left:5%;
+  width: 90%;
+}
+
+.scores {
+  width:5%;
+}
+
+.big-stats {
+  height:40vw;
+  background-image:url("../res/design.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.wow-points, .wow-comments, .wow-investments {
+  width:17vw;
+  height:17vw;
+  font-size:4.5vw;
+  
+}
+
+.wow-points-label, .wow-comments-label, .wow-investments-label {
+  width:17vw;
+  font-size:5vw;
+ 
+}
+
+.big-wow {
+  display:flex;
+  align-items:center;
+  justify-content:center;  
+
+  height:min-content;
+}
+
+.wow {
+  font-size:16px;
+}
+
+
+.quizzle-text, .quizzle-text2 {
+  padding:1.5vw 0;
+  width:100%;
+  font-size:16px;
+}
+
+}
