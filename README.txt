@@ -21,3 +21,4 @@ This is a quizzing app made as an implementation of a peer-learning model design
 - Go to http://localhost/Quizzle/views/index.php
 
 ---SCREENSHOTS
+![Alt text](./res/screenshots/login.png)
