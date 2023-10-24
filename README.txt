@@ -1,1 +1,23 @@
-QUIZZLE was made using HTML, CSS, Javascript, and PHP. We used XAMPP as our test server, so to get it up and running, we'd recommend downloading that or WAMP. If XAMPP is installed, go to your xampp folder, then the htdocs folder, then put the quizzle folder there. Go to phpMyAdmin and import the quizzle sql file. Create a user in phpMyAdmin with username="admin" and password="". Run XAMPP in administrator, and start Apache and MySQL. You can then navigate to http://localhost/Quizzle/views/index.php.
+---QUIZZLE 
+This is a quizzing app made as an implementation of a peer-learning model designed for my thesis. 
+
+---FEATURES
+- multiple users
+- custom authentication
+- a quiz bank with user-added questions and answers
+- a commenting system
+- a voting system
+- statistics regarding player scores/comments/contributions
+- leaderboard
+
+---HOW DO I GET THIS UP AND RUNNING?
+- quizzle was made using HTML, CSS, Javascript, and PHP
+- download XAMPP or WAMP
+- (if XAMPP) - go to xampp folder -> htdocs folder, then put the quizzle folder 
+- go to phpMyAdmin, import quizzle sql file
+- create user in phpMyAdmin with username="admin" and password=""
+- run XAMPP in administrator
+- start Apache and MySQL
+- Go to http://localhost/Quizzle/views/index.php
+
+---SCREENSHOTS
