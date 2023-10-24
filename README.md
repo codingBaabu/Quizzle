@@ -1,5 +1,5 @@
 # QUIZZLE 
-This is a quizzing app made as an implementation of a peer-learning model designed for my thesis. 
+This is a quizzing app made as an implementation of a peer-learning model designed for my thesis
 
 ## FEATURES
 - multiple users
@@ -22,23 +22,23 @@ This is a quizzing app made as an implementation of a peer-learning model design
 
 ## SCREENSHOTS
 
-### login
+### Login
 ![Alt text](./res/screenshots/login.png)
 
-### signup
+### Signup
 ![Alt text](./res/screenshots/sign-up.png)
 
-### homepage
+### Homepage
 ![Alt text](./res/screenshots/homepage.png)
 
-### course selected
+### Course Selected
 ![Alt text](./res/screenshots/course-selected.png)
 
-### investing quiz
+### Investing Quiz
 ![Alt text](./res/screenshots/investing-quiz.png)
 
-### quizzle
+### Quizzle
 ![Alt text](./res/screenshots/quizzle.png)
 
-### quizzle (answered)
+### Quizzle (Answered)
 ![Alt text](./res/screenshots/quizzle-(answered).png)
