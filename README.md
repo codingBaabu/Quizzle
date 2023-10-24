@@ -1,7 +1,7 @@
----QUIZZLE 
+# QUIZZLE 
 This is a quizzing app made as an implementation of a peer-learning model designed for my thesis. 
 
----FEATURES
+## FEATURES
 - multiple users
 - custom authentication
 - a quiz bank with user-added questions and answers
@@ -10,7 +10,7 @@ This is a quizzing app made as an implementation of a peer-learning model design
 - statistics regarding player scores/comments/contributions
 - leaderboard
 
----HOW DO I GET THIS UP AND RUNNING?
+## HOW DO I GET THIS UP AND RUNNING?
 - quizzle was made using HTML, CSS, Javascript, and PHP
 - download XAMPP or WAMP
 - (if XAMPP) - go to xampp folder -> htdocs folder, then put the quizzle folder 
@@ -20,25 +20,25 @@ This is a quizzing app made as an implementation of a peer-learning model design
 - start Apache and MySQL
 - Go to http://localhost/Quizzle/views/index.php
 
----SCREENSHOTS
+## SCREENSHOTS
 
-login
+### login
 ![Alt text](./res/screenshots/login.png)
 
-signup
+### signup
 ![Alt text](./res/screenshots/sign-up.png)
 
-homepage
+### homepage
 ![Alt text](./res/screenshots/homepage.png)
 
-course selected
+### course selected
 ![Alt text](./res/screenshots/course-selected.png)
 
-investing quiz
+### investing quiz
 ![Alt text](./res/screenshots/investing-quiz.png)
 
-quizzle
+### quizzle
 ![Alt text](./res/screenshots/quizzle.png)
 
-quizzle (answered)
+### quizzle (answered)
 ![Alt text](./res/screenshots/quizzle-(answered).png)
