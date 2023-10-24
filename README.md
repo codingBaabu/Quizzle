@@ -21,4 +21,24 @@ This is a quizzing app made as an implementation of a peer-learning model design
 - Go to http://localhost/Quizzle/views/index.php
 
 ---SCREENSHOTS
+
+login
 ![Alt text](./res/screenshots/login.png)
+
+signup
+![Alt text](./res/screenshots/sign-up.png)
+
+homepage
+![Alt text](./res/screenshots/homepage.png)
+
+course selected
+![Alt text](./res/screenshots/course-selected.png)
+
+investing quiz
+![Alt text](./res/screenshots/investing-quiz.png)
+
+quizzle
+![Alt text](./res/screenshots/quizzle.png)
+
+quizzle (answered)
+![Alt text](./res/screenshots/quizzle-(answered).png)
