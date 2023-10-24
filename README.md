@@ -23,22 +23,22 @@ This is a quizzing app made as an implementation of a peer-learning model design
 ## SCREENSHOTS
 
 ### Login
-![Alt text](./res/screenshots/login.png)
+![Alt Screenshot](./res/screenshots/login.png)
 
 ### Signup
-![Alt text](./res/screenshots/sign-up.png)
+![Alt Screenshot](./res/screenshots/sign-up.png)
 
 ### Homepage
-![Alt text](./res/screenshots/homepage.png)
+![Alt Screenshot](./res/screenshots/homepage.png)
 
 ### Course Selected
-![Alt text](./res/screenshots/course-selected.png)
+![Alt Screenshot](./res/screenshots/course-selected.png)
 
 ### Investing Quiz
-![Alt text](./res/screenshots/investing-quiz.png)
+![Alt Screenshot](./res/screenshots/investing-quiz.png)
 
 ### Quizzle
-![Alt text](./res/screenshots/quizzle.png)
+![Alt Screenshot](./res/screenshots/quizzle.png)
 
 ### Quizzle (Answered)
-![Alt text](./res/screenshots/quizzle-(answered).png)
+![Alt Screenshot](./res/screenshots/quizzle-(answered).png)
